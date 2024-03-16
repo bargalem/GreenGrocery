@@ -1,0 +1,425 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.Main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./image/back.jpg");
+    /* background-size: cover; */
+    /* background-attachment: fixed;  */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    margin-bottom: 2rem;
+
+}
+
+.navbar {
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    position:fixed;
+    top:0px;
+    z-index: 200;
+    width: 100%;
+    height: 50px;
+    opacity: 0.8;
+ 
+}
+
+.nav-link,
+.navbar-brand {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white !important;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: black !important;
+    transition: 0.5s ease-in;
+}
+
+.para {
+    background-color: none;
+    /* color: white !important; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+    position: relative;
+    top: 15%;
+    font-weight: 800;
+    margin-left: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    z-index: 100;
+}
+
+.para>h3,
+h1 {
+    font-size: 50px;
+}
+
+.clrorange {
+    color: red;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    width: 50%;
+}
+
+.btn:hover {
+    background-color: red;
+    color: black;
+}
+
+ .about>.card {
+
+    margin-bottom: 5rem; 
+     border: none;
+    
+} 
+
+
+
+.linedecoration {
+    text-decoration-line: underline;
+    text-decoration-color: red
+}
+
+.about {
+    text-align: center;
+    margin-top: 3rem;
+   
+}
+
+.card-body>.alinecenter {
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+}
+
+.card-img-bottom {
+    height: 450px;
+
+}
+
+.btncenter {
+    margin-left: 45%;
+    width: 10%
+}
+
+.OurProduct>h1 {
+    text-align: left;
+    padding: 1rem
+}
+
+.OurProduct {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: rgb(243, 242, 242);
+    margin-top: 2rem;
+}
+
+.card-img-top {
+    max-height: 200px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+
+.card {
+    border: none;
+
+}
+
+.card:hover {
+
+    cursor: pointer;
+    transform: scaleY(1.1);
+    transition: 0.1s ease-in;
+}
+
+.card-text {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.justify {
+    width: 50%;
+
+
+}
+
+.redclr {
+    color: red;
+}
+
+.detail {
+    display: flex;
+
+    gap: 15px;
+    padding: 5rem;
+    width: 100%;
+
+}
+
+.detail-info {
+    padding: 5rem 2rem 2rem 2rem;
+
+    background-color: red;
+    color: white;
+    width: fit-content;
+    width: 100%
+}
+
+.linedecoration2 {
+    text-decoration-line: underline;
+    text-decoration-color: white
+}
+
+.detail-img>img {
+
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.gallary {
+    background-color: rgb(243, 242, 242);
+    padding: 2rem 5rem 2rem 5rem;
+    margin-bottom: 2rem;
+}
+
+.contactdiv>h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+.contact {
+    background-image: url("./image/geo.jpg");
+    width: 100%;
+    height: 50%;
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.contact-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    background-position: center;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.contact-form {
+    border: 1px solid rgb(185, 182, 182);
+    background-color: rgb(239, 240, 241);
+    width: 70%;
+    padding: 3.5rem;
+    margin-left: -5px;
+    z-index: 100;
+    height: inherit;
+    box-shadow: 5px 5px 5px 2px white;
+    border: none;
+}
+
+.footer-span {
+    text-decoration-line: underline;
+    text-decoration-color: white
+}
+
+.footer {
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+    padding: 5rem 5rem 5rem 5rem;
+
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.footer-input {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 10px;
+
+}
+
+.footer-input>input {
+    width: 70%;
+    border: none;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.footer-input>.btn {
+    width: 30%;
+    margin-top: -1px;
+
+
+}
+
+.clr:hover {
+    color: blue !important;
+    text-decoration: underline;
+}
+
+
+.div1>a:hover {
+    color: blue !important;
+    text-decoration: underline;
+}
+
+.div1,
+.div2 {
+    text-align: left;
+}
+
+
+
+.footer-col {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 3px solid white;
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+    font-weight: 700;
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: fit-content;
+}
+
+.footer-bottem {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -45px;
+    color: white;
+
+}
+
+.footer-bottem>p {
+    padding-top: 7px;
+}
+
+
+
+
+
+@media only screen and (max-width:950px) {
+    .detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width: 100%;
+        margin: auto; */
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact>form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width:900px) {
+    .footer-col {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        display: flex;
+        width: 100%;
+        gap: 5px;
+        font-weight: 500;
+
+
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .navbar-nav{
+        display: none
+    }
+    
+}
+
+
+@media only screen and (max-width:950px) {
+
+    .para {
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        position: relative;
+        top: 10%;
+
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+    }
+
+    .para>h3,
+    h1 {
+        font-size: 30px;
+    }
+
+
+
+}
